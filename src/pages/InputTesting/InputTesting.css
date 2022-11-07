@@ -1,0 +1,135 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+
+
+.container {
+    background-color: #c9e4f7;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.column {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+    .container {
+        padding: 0; }
+    .column {
+        margin-left: 4%; }
+    .column:first-child {
+        margin-left: 0; }
+
+    .full-width.column              { width: 100%; margin-left: 0; }
+
+    .one-half.column                { width: 48%; }
+
+    .one-third.column               { width: 30.6666666667%; }
+    .two-thirds.column              { width: 60%; }
+
+    .one-quarter.column             { width: 22%; }
+    .two-quarter.column             { width: 48%; }
+    .three-quarter.column           { width: 74%; }
+
+    .one-half.column                { width: 48%; }
+
+}
+
+.container:after,
+.clearfix {
+    content: "";
+    display: table;
+    clear: both; }
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Barclaycard Co Lt', sans-serif;
+    color: #018fd0;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    color: #5224a0;
+    font-size: 26px;
+}
+
+.center {
+    text-align: center;
+}
+
+.questions_box {
+    background-color: #ffffff;
+    padding: 60px;
+    text-align: left;
+    max-width: 960px;
+}
+
+.button {
+    font-family: 'Barclaycard Co Lt',Tahoma,sans-serif;
+    margin: 10px 0 0 0;
+    float: right;
+    box-sizing: border-box;
+    padding: 0 25px;
+    outline: none;
+    border: 1px solid #ebf0f6;
+    border-radius: 50px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    vertical-align: baseline;
+    display: inline-block;
+    text-decoration: none;
+    color: #444;
+    background-color: #ebf0f6;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    transition: box-shadow 0.2s;
+}
+
+.button:hover {
+    transition: all 0.2s;
+    box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+
+#question-2, #question-3, #question-4, #question-5, #question-6{
+    display: none;
+}
+
+#progress_bar {
+    background-color: #018fd0;
+    width: 25%;
+    height: 10px;
+    transition: all 400ms ease-in-out;
+    max-width: 1080px;
+}
+
+.indent{
+    width: 10px;
+}
