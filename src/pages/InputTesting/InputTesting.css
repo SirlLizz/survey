@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 870px) {
     .container {
         padding: 0; }
     .column {
@@ -132,4 +132,9 @@ h3 {
 
 .indent{
     width: 10px;
+}
+
+.tile-block{
+    display: flex;
+    justify-content: space-around;
 }

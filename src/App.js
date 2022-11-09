@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor: "#c9e4f7"}}>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
